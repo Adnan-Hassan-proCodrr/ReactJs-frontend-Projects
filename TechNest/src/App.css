@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+body{
+  color: white;
+  background-color: #f5f5f5;
+}
+
+header{
+  padding-inline: 6rem;
+  width: 100%;
+  height: 60px;
+  background-color:rgb(29, 29, 29);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 1.6rem;
+}
+
+ header .nav-links nav{
+display: flex;
+ align-items: center;
+  gap: 2rem;
+  
+}
+.nav-links nav a{
+  text-decoration: none;
+  color: rgb(255, 247, 247);
+}
+
+.hero-section{
+  width: 100%;
+  height: 300px;
+  background-image: url(./assets/hero-section.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-section{
+  color: rgb(255, 243, 243);
+  display: flex;
+  align-items: center;
+    padding-inline: 6rem;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: rgb(29, 29, 29);
+}
+.about-content{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 10px;
+  height: 60px;
+}
+
+.product-section{
+  padding-inline: 5rem;
+  width: 100%;
+  background-color: rgb(32, 31, 31);
+  text-align: center;
+}
+.products-container{
+  display: flex;
+  align-items: center;
+  gap:2rem
+}
+.product-card{
+  width: 250px;
+  border: 1px solid black;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.product-card .product-image{
+  height: 70%;
+}
+.product-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-content{
+  color: black;
+  margin: 8px;
+}
+button{
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 6px;
+}

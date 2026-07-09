@@ -1,15 +1,16 @@
 import Button from "./Button"
 
-const ProductCard = () => {
+const ProductCard = ({ProductsList}) => {
   return (
     <div className="product-card">
 <div className="product-image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRudUNCq_z-YKmnQywFZytLAenfobzZIqkygULOqN0hQ&s=10" alt="" />
+<img src={ProductsList.image} alt={ProductsList.name} />
 </div>
 <div className="product-content">
-    <h3>MObile</h3>
+    <h3>{ProductsList.name}</h3>
+    <p>${ProductsList.price.toFixed(2)}</p>
 </div>
-<Button/>
+<Button text="Add to Cart" />
     </div>
   )
 }

@@ -40,27 +40,27 @@ const Products = () => {
   },
   {
     id: 7,
-    name: "Gaming Mouse",
-    price: 49.99,
-    image: "images/gaming-mouse.jpg",
+    name: "Gaming Chair",
+    price: 199.99,
+    image: "images/gaming-chair.jpg",
   },
   {
     id: 8,
     name: "Mechanical Keyboard",
     price: 79.99,
-    image: "images/mechanical-keyboard.jpg",
+    image: "images/mic.jpg",
   },
   {
     id: 9,
-    name: "Smart Watch",
-    price: 199.99,
-    image: "images/smart-watch.jpg",
+    name: "camera",
+    price: 349.99,
+    image: "images/camera.jpg",
   }, 
    {
     id: 10,
-    name: "Mechanical Keyboard",
+    name: "IPhone 13 pro",
     price: 79.99,
-    image: "images/mechanical-keyboard.jpg",
+    image: "images/mobile-phone.jpg",
   },
   
 ];
